@@ -25,19 +25,31 @@ g++ kod.cpp -o srlg-path4 -std=c++11 -D GREEDY -D FAST
 # Input format:
 
 n - number of vertices
+
 Following n lines:
+
 x_i, y_i, id_i - coordinates and ID of vertices
+
 Next line: s, t - start and end vertices
+
 m - number of edges
+
 Next m lines:
+
 a_i, b_i, id_i - endpoints and ID of each edge
+
 k - number of SRLGs (Shared Risk Link Groups)
+
 Next k lines:
+
 x, a_1, a_2 ... a_x, - edges traversed by each SRLG 
+
 in the same line we define y the capacity of the SRLG
 
 # Output format:
 
 Determines if there are infinitely many paths; otherwise, it lists k - the number of maximum SRLG-independent paths (if k is not very large)
+
 Next k lines: 
+
 paths length in hops, the nodes along the path x_1=s, x_2, ... x_p=t
