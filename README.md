@@ -1,6 +1,6 @@
-Soruce code for paper Erika Bérczi-Kovács, Péter Gyimesi, Balázs Vass, János Tapolcai, *"Efficient Algorithm for Region-Disjoint Survivable Routing in Backbone Networks"*, Infocom 2024
+# Source code for paper Erika Bérczi-Kovács, Péter Gyimesi, Balázs Vass, János Tapolcai, *"Efficient Algorithm for Region-Disjoint Survivable Routing in Backbone Networks"*, Infocom 2024
 
-# compile
+## compile
 ```
 g++ kod.cpp -o srlg-path -std=c++11
 ```
@@ -22,7 +22,7 @@ lem,” in Proc. IEEE INFOCOM, London, United Kingdom, May 2022.*
 g++ kod.cpp -o srlg-path4 -std=c++11 -D GREEDY -D FAST
 ```
 
-# Input format:
+## Input format:
 
 n - number of vertices
 
@@ -46,7 +46,7 @@ x, a_1, a_2 ... a_x, - edges traversed by each SRLG
 
 in the same line we define y the capacity of the SRLG
 
-# Output format:
+## Output format:
 
 Writes ut the results in an xml format.
 
