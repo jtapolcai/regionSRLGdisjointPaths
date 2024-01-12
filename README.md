@@ -7,7 +7,7 @@ The code was written by Péter Gyimesi
 g++ kod.cpp -o srlg-path -std=c++11
 ```
 
-To find only two disjoint path:
+To find only two disjoint paths:
 ```
 g++ kod.cpp -o srlg-path2 -std=c++11 -D TWOPATH
 ```
