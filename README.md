@@ -48,8 +48,9 @@ in the same line we define y the capacity of the SRLG
 
 # Output format:
 
+Writes ut the results in an xml format.
+
 Determines if there are infinitely many paths; otherwise, it lists k - the number of maximum SRLG-independent paths (if k is not very large)
 
 Next k lines: 
-
 paths length in hops, the nodes along the path x_1=s, x_2, ... x_p=t
