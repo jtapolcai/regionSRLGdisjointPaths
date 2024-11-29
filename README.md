@@ -4,24 +4,24 @@ The code was written by Péter Gyimesi
 
 ## compile
 ```
-g++ kod.cpp -o srlg-path -std=c++11
+g++ routing_algorithm.cpp -o srlg-path -std=c++11
 ```
 
 To find only two disjoint paths:
 ```
-g++ kod.cpp -o srlg-path2 -std=c++11 -D TWOPATH
+g++ routing_algorithm.cpp -o srlg-path2 -std=c++11 -D TWOPATH
 ```
 
 To find k with binary search
 ```
-g++ kod.cpp -o srlg-path3 -std=c++11 -D BINSEARCHCUT -D FAST
+g++ routing_algorithm.cpp -o srlg-path3 -std=c++11 -D BINSEARCHCUT -D FAST
 ```
 
 An implementation of Dervish algorithm from *B. Vass, E. Bérczi-Kovács, A. Barabás, Z. L. Hajdú, and J. Tapolcai,
 “Polynomial-time algorithm for the regional SRLG-disjoint paths prob-
 lem,” in Proc. IEEE INFOCOM, London, United Kingdom, May 2022.*
 ```
-g++ kod.cpp -o srlg-path4 -std=c++11 -D GREEDY -D FAST
+g++ routing_algorithm.cpp -o srlg-path4 -std=c++11 -D GREEDY -D FAST
 ```
 
 ## Input format:
