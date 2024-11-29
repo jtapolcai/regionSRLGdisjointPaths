@@ -2,6 +2,8 @@
 
 The code was written by Péter Gyimesi
 
+If you'd like more information about the simulation, you can reach out to János Tapolcai at janos.tapolcai@gmail.com . 
+
 ## compile
 ```
 g++ routing_algorithm.cpp -o srlg-path -std=c++11
